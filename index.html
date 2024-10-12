@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="folder-logo.jfif" type="Image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Porto<span>folio</span></a>
+            <nav class="navbar">
+                <ul>
+                   <li><a href="#objective" data-target="objective">Objective</a></li> 
+                   <li><a href="#about" data-target="about">About</a></li>
+                   <li><a href="#service" data-target="service">Services</a></li>
+                   <li><a href="#contact" data-target="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="objective" class="intro zoom-in visible">
+        <div class="container">
+            <div class="intro-content">
+                <div text-content>
+                    <h1 class="enlarged-text">
+                        Hi, Saya Nafis!
+                    </h1>
+                    <p class="highlighted-text">
+                        I graduated from <span class="highlight-blue">SMK Taruna Bangsa</span> in
+                        <span class="highlight-blue">Tahun 2023</span> <br />
+
+                    </p>
+                    </div>
+                    <div class="image-container">
+                        <img src="WhatsApp Image 2024-10-09 at 10.59.23.jpeg" alt="Nafis Fadhil" class="responsive-image">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <div class="container">
+            <div class="text-content">
+                I developed a strong interest in computers and programming<br />
+                during my time in high school, particularly when i joined the Computer Science<br />
+                club and started working on coding projects<br />
+                As i advanced to senior high school,<br />
+                I chose to take the Humanities and Social Science (HUMSS) track,<br />
+                where i continued to explore my passion for technology through interdisciplinary<br />
+                projects that combined programming with social science research <br />
+            </div>
+            <div class="image-container">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="hidden">
+        <div class="container">
+            <div class="service-details">
+                <div class="service-item">
+                    <h3>Web Development</h3>
+                    <p>I offer top-notch web development services to create beautiful and functional website</p>
+                </div>
+                <div class="service-item">
+                    <h3>App Development</h3>
+                    <p>My app development services include creating custom mobile applications to enhance</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consulting</h3>
+                    <p>I provide expert consulting services to help you navigate the complexities of technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Jika Anda memiliki pertanyaan atau pernyataan, bebas biaya untuk menghubungi saya melalui yang berikut ini</p>
+            <h3>Sosial Media</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <p><a href="https://www.tiktok.com/@nfisfadhil_">Tiktok</a></p>
+                </div>
+                <div class="contact-item">
+                    <p><a href="https://wa.me/081210315603">WhatsApp</a></p>
+                </div>
+                <div class="contact-item">
+                    <p><a href="https://www.instagram.com/nfisfadhil_" target="ig.jpeg">Instagram</a></p>
+                </div>
+            </div>
+        <form action="/submit-form" method="post" class="contact-form"></form>
+        <h3>Send Me A Message</h3>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message"  name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+    </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nafis Fadhil. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
